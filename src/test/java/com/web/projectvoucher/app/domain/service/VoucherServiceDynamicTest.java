@@ -2,6 +2,7 @@ package com.web.projectvoucher.app.domain.service;
 
 import com.web.projectvoucher.common.type.VoucherAmountType;
 import com.web.projectvoucher.common.type.VoucherStatusType;
+import com.web.projectvoucher.domain.service.VoucherService;
 import com.web.projectvoucher.storage.voucher.VoucherEntity;
 import com.web.projectvoucher.storage.voucher.VoucherRepository;
 import org.junit.jupiter.api.DynamicTest;

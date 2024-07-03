@@ -1,4 +1,4 @@
-package com.web.projectvoucher.app.domain.service;
+package com.web.projectvoucher.domain.service;
 
 import com.web.projectvoucher.common.type.VoucherAmountType;
 import com.web.projectvoucher.common.type.VoucherStatusType;

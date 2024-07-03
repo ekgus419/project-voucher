@@ -1,12 +1,9 @@
-package com.web.projectvoucher.app.domain.employee;
+package com.web.projectvoucher.domain.employee;
 
-import com.web.projectvoucher.app.controller.response.EmployeeResponse;
+import com.web.projectvoucher.app.controller.employee.response.EmployeeResponse;
 import com.web.projectvoucher.storage.employee.EmployeeEntity;
 import com.web.projectvoucher.storage.employee.EmployeeRepository;
 import org.springframework.stereotype.Service;
-
-import java.util.HashMap;
-import java.util.Map;
 
 @Service
 public class EmployeeService {

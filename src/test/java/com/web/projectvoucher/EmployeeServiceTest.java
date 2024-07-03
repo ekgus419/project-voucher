@@ -1,7 +1,7 @@
 package com.web.projectvoucher;
 
-import com.web.projectvoucher.app.controller.response.EmployeeResponse;
-import com.web.projectvoucher.app.domain.employee.EmployeeService;
+import com.web.projectvoucher.app.controller.employee.response.EmployeeResponse;
+import com.web.projectvoucher.domain.employee.EmployeeService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
