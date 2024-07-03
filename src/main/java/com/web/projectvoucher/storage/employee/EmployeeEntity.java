@@ -1,16 +1,15 @@
 package com.web.projectvoucher.storage.employee;
 
 
+import com.web.projectvoucher.storage.BaseEntity;
 import jakarta.persistence.*;
 
 import java.util.Objects;
 
 @Table(name = "employee")
 @Entity
-public class EmployeeEntity {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class EmployeeEntity extends BaseEntity {
+
     private String name;
     private String position;
     private String department;
@@ -22,10 +21,6 @@ public class EmployeeEntity {
         this.name = name;
         this.position = position;
         this.department = department;
-    }
-
-    public Long id() {
-        return id;
     }
 
     public String name() {
