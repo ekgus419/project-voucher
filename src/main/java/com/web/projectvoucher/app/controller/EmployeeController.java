@@ -14,7 +14,6 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-
     // 사원 생성
     @PostMapping("/api/v1/employee")
     public Long create(@RequestBody final EmployeeCreateRequest request) {
